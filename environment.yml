@@ -1,0 +1,14 @@
+name: numpyro
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - jupyterlab
+  - ipywidgets
+  - matplotlib
+  - jax
+  - numpyro
+  - pip
+  - pip:
+    - graphviz
